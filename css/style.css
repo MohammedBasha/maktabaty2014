@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+html{background-color:#CCC;}
+#wrapper{width:1000px; min-height:1000px; background-color:#FFF; margin:0 auto;}
+#header{width:1000px; min-height:363px; background:url(../images/header-BG.png) repeat-x;}
+#sociallinks{width:125px; /*height:217px;*/ margin:94px 0 0 20px; float:left;}
+#facebook{width:38px; height:38px;}
+#twitter {width:38px; height:38px; margin:2px 0 0 38px;}
+#google {width:38px; height:38px; margin:2px 0 0 76px;}
+#youtube {width:38px; height:38px; margin:2px 0 0 38px;}
+#rss {width:38px; height:38px; margin:2px 0 0 0;}
+#logoandslogan{width:186px; height:93px; float:right; margin:154px 20px 0 0;}
+#menu{width:1000px; height:60px; background:url(../images/menu-bg.png) no-repeat; direction:rtl;}
+#navibar{float:right; margin:0 20px 0 0; direction:rtl;}
+#navibar ul{float:right; direction:rtl; }
+#navibar ul li{float:right; line-height:42px; color:#595958; padding:0 0 0 15px;}
+#navibar ul li a{text-decoration:none; color:#272422; font-family:Tahoma, Geneva, sans-serif; font-size:20px;}
+#navibar ul li:hover a{color:#b3400f; text-decoration:underline;}
+#navibar ul li:first-child a{color:#b3400f;}
+#searching{float:left; margin:0 0 0 20px; direction:rtl; line-height:50px;}
+#searching input[type=text] {border:#b3400f solid 2px; width:198px; height:25px; border-radius:8px; padding:0 10px 0 0; color:#000;
+font-family:Tahoma, Geneva, sans-serif; font-size:20px; }
+#searching input[type=submit] {background:url(../images/searchbutton.png) no-repeat; width:60px; height:27px; border:0; color:#FFF;
+font-family:Tahoma, Geneva, sans-serif; font-size:20px; line-height:29px; cursor:pointer;}
+#contents{width:1000px; clear:both; height:1105px;}
+#rightsection{float:right; margin: 20px 20px 0; width:180px;}
+#vrmenu{direction:rtl; background:url(../images/right-menu-bg.png) no-repeat; width:180px; height:434px; padding: 0 0px 0 0;}
+#vrmenu h1{color:#000; font-family:Tahoma, Geneva, sans-serif; font-size:20px; padding: 15px 0 10px 0; text-align:center;}
+#vrmenu ul{direction:rtl; margin:0 28px 0 0;}
+#vrmenu ul li{list-style-image:url(../images/arrow.png);}
+#vrmenu ul li a{text-decoration:none; color:#000; font-family:Tahoma, Geneva, sans-serif; font-size:16px; line-height:180%;}
+#vrmenu ul li:hover a{ text-decoration:underline; color:#b3400f;}
+#rightads{margin:10px 0 0 0; direction:rtl;}
+.addsonetwo{text-align:center;}
+.addsonetwo img{width:176px; height:266px;}
+.addsonetwo h2{color:#f60734; font-family:Tahoma, Geneva, sans-serif; font-size:15px;}
+.addsonetwo h3{color:#000000; font-family:Tahoma, Geneva, sans-serif; font-size:15px;}
+.addsonetwo a{color:#3056f9; font-family:Tahoma, Geneva, sans-serif; font-size:15px; text-decoration:none;}
+.addsonetwo a:hover{text-decoration:underline;}
+#leftsection{margin:20px 0 0 20px; float:left; width:760px;}
+/*#upperleftsection{padding:0 0 20px 0;}*/
+.upleftsecbook{direction:rtl; text-align:center; float:right; padding:0 20px 10px 8px;}
+.upleftsecbook img{width:121px; height:188px;}
+.upleftsecbook h2{color:#f60734; font-family:Tahoma, Geneva, sans-serif; font-size:15px;}
+.upleftsecbook h3{color:#000000; font-family:Tahoma, Geneva, sans-serif; font-size:14px;}
+.upleftsecbook a{color:#3056f9; font-family:Tahoma, Geneva, sans-serif; font-size:15px; text-decoration:none;}
+.upleftsecbook a:hover{text-decoration:underline;}
+#lowerleftsection{direction:rtl; padding:30px 0 0 0; clear:both;}
+#morebooksaddress{background:url(../images/more-books-address.png) no-repeat; width:736px; height:36px; padding:0 20px 20px 0;}
+#morebooksaddress h1{color:#ffffff; font-family:Tahoma, Geneva, sans-serif; font-size:20px; line-height:40px; padding:0 10px 0 0;}
+#morebooks{padding:0 20px 0 0; width:756px;}
+.morebooksone{float:right; width:370px; height:137px; margin:0 0 20px 0; line-height:19px;}
+.morebooksone:hover{background-color:#FFC;}
+.morebooksone img{float:right; width:89px; height:135px; margin:0 0 0 15px;}
+.morebooksone h2{color:#000000; font-family:Tahoma, Geneva, sans-serif; font-size:14px;}
+.morebooksone h2 span{color:#f60734;}
+.morebooksone a{color:#3056f9; font-family:Tahoma, Geneva, sans-serif; font-size:14px; text-decoration:none; margin:0 205px 0 0;}
+.morebooksone a:hover{color:#f60734; text-decoration:underline;}
+#footer{width:1000px; margin:0 20px 0 20px; height:60px;}
+#herlin{width:960px;}
+#herlin hr{width:960px; height:8px; background-color:#b3400f; border:0;}
+#coprigh{text-align:center; color:#000000; font-family:Tahoma, Geneva, sans-serif; font-size:18px; line-height:200%;}
